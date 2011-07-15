@@ -1,67 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home</title>
+		<title>Musical Computer</title>
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js></script>
-            <![endif]-->
+        <![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:regular,bold' rel='stylesheet' type='text/css'>
-		<style>
-            html {
-                font-family: 'Open Sans';
-                background-image: url(89.png), url(61.png), url(43.png), url(59.png), url(31.png); 
-                background-size: auto, auto, auto, auto, auto;
-                padding: 0;
-                margin: 0;
-            }
-            a {
-                color: #DE8100;
-            }
-            .floater {
-                position: relative;
-                clear:left;
-                height: 50%;
-                margin-bottom: 200px;
-                width: 1px;
-            }
-			.paper {
-                clear: left;
-				position: relative;
-				width: 550px;
-				padding: 50px;
-				margin: auto;
-				background-color: #E3E3E3;
-    			box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.3), 
-                    inset 0px 0px 10px 15px rgba(0, 0, 0, 0.1); 
-			}
-			.paper:before, .paper:after  {  
-			    position: absolute;  
-			    width: 40%;  
-			    height: 10px;  
-			    content: ' ';  
-			    left: 12px;  
-			    bottom: 12px;  
-			    background: transparent;  
-			    -moz-transform: skew(-5deg) rotate(-5deg);
-			    -webkit-transform: skew(-5deg) rotate(-5deg);
-                transform: skew(-5deg) rotate(-5deg);  
-			    box-shadow: 0 6px 30px rgba(0, 0, 0, 1);  
-			    z-index: -1;  
-			}  
-			.paper:after  {  
-			    left: auto;  
-			    right: 12px;  
-			    -webkit-transform: skew(5deg) rotate(5deg);  
-			    -moz-transform: skew(5deg) rotate(5deg);  
-			    -ms-transform: skew(5deg) rotate(5deg);  
-			    -o-transform: skew(5deg) rotate(5deg);  
-			    transform: skew(5deg) rotate(5deg);  
-			}
-		</style>
+        <link rel='stylesheet' href='css/mc.css'> 
 	</head>
 	<body>
         <div class="floater"></div>
-		<div class="paper">
+		<div class="paper" id="intro">
 		<h1 id="greeting">Hey there,</h1>
 		<h2>My name is Paul Linton. I just graduated from Wesleyan University in 
 			Music and Computer Science. </h2>
