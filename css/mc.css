@@ -20,7 +20,7 @@ a {
     position: relative;
     width: 550px;
     padding: 50px;
-    margin: auto;
+    margin: 10% auto auto auto;
     background-color: #E3E3E3;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.3), 
         inset 0px 0px 10px 15px rgba(0, 0, 0, 0.1); 
